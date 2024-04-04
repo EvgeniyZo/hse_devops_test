@@ -1,4 +1,4 @@
-from kNN.kNN import *
+from kNN import *
 import datetime
 
 def test_kNN_2dots():
@@ -43,4 +43,4 @@ def test_kNN_2TargetDots():
 
 def test_current_time():
     now = datetime.datetime.now()
-    assert now!=datetime.datetime.now()
+    assert now==datetime.datetime.now()
