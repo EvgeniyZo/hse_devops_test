@@ -2,7 +2,7 @@ from kNN.kNN import *
 
 
 def test_kNN():
-    knn = KNN(k=1)
+    knn = KNN(k=2)  #changed from k = 1 to k = 2
     X_train = np.array([[1, 1], [2, 2]])
     y_train = np.array([0, 1])
     X_test = np.array([[1.5, 1.5]])
