@@ -1,5 +1,6 @@
 from kNN.kNN import *
 
+# Strange comment
 
 def test_kNN():
     knn = KNN(k=1)
