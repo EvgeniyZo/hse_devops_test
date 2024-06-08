@@ -7,5 +7,5 @@ int main(){
 		answ *= (i+1);
 	}
 	std::cout<<answ;
-	return 0;
+	return 1;
 }
