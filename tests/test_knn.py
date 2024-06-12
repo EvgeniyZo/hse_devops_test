@@ -1,6 +1,7 @@
 from kNN.kNN import *
 
 
+
 def test_kNN():
     knn = KNN(k=1)
     X_train = np.array([[1, 1], [2, 2]])
