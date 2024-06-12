@@ -1,5 +1,5 @@
 from kNN.kNN import *
-
+import os
 
 def test_kNN():
     knn = KNN(k=1)
